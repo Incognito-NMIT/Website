@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("./img/b5.png");
+box-sizing: border-box;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top right;
+}
+:root {
+  --purple: #3a1d82;
+  --theme: #ff0079;
+}
+.head-blue {
+  color: var(--purple);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.navbar-brand {
+background-image: url("./img/Group 1.png");
+height:50px;
+background-repeat: no-repeat;
+background-size: 100%;
+width:150px;
+}
+.navbar.active .navbar-brand{
+  background-image: url("./img/white_logo.png");
+
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar.active{
+  background:#ff0079;
+
+}
+.navbar.active .nav-link{
+  color:white;
+}
+.nav-item {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 12px;
+  padding-right: 10px;
+}
+.nav-link {
+  color: var(--purple);
+  font-family: "Raleway", sans-serif;
+}
+.nav-item :hover {
+  transition: all ease-in-out 0.2s;
+}
+*/
+/*-----------BANNER-------*/
+#banner{
+  height: 100vh;
+}
+.box {
+  margin-top: 80px!important;
+  padding-top: 30px;
+}
+.box h1 {
+  font-size: 5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: var(--purple);
+}
+.box h4 {
+  color: var(--purple);
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 4px;
+}
+.box .college {
+  color: var(--purple);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 18px;
+}
+.box i img {
+  height: 35px;
+}
+.box .content {
+  color: var(--purple);
+  width: 450px;
+  margin: 20px 0;
+}
+.box .btn {
+  background-color: #ff0079;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 10px 30px;
+  box-shadow: #f33f93 4px 4px 10px;
+}
+@media only screen and (max-width: 500px) {
+  #banner .box {
+    background-color: white;
+    padding: 30px 10px;
+    text-align: center;
+  }
+  #header h1{
+    padding: 50px!important;
+    font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  }
+  #header{height: 20vh!important;}
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    left:0;
+    width:100%;
+  }
+  .navbar.active{
+    left:0;
+  }
+  .navbar .nav-item{
+    text-align: center;
+  }
+  #banner .box h4 {
+    font-size: 4px;
+    visibility: hidden;
+  }
+  #about{
+    background-repeat: repeat!important;
+  }
+  .box h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .box .content {
+    width: auto;
+    text-align: justify;
+  }
+  .box .college {
+    text-align: center;
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 0.45em;
+    color: white;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+  #team {
+    background-repeat: repeat !important;
+    background-size: 100%;
+  }
+  #promo {
+    background-image: url("./img/promo-2.png") !important;
+    height: 80vh !important;
+  }
+  .promo-head h1 {
+    font-size: 20px;
+  }
+  .img-a img,
+  .img-b img,
+  .img-c img,
+  .img-d img,
+  .img-e img {
+    width: 150px;
+  }
+  #thought {
+    height: 82vh !important;
+    padding: 103px 0px !important;
+  }
+  #thought .container-fluid .quote {
+    width: 250px !important;
+    font-size: 10px !important;
+  }
+  #thought .container-fluid span {
+    font-size: 10px !important;
+    text-align: center;
+  }
+  #adv .row {
+    font-size: 10px;
+  }
+}
+.navbar-toggler-icon i {
+  font-size: xx-large;
+  color: var(--purple);
+}
+/*-------END BANNER----------*/
+/*---------Thought*/
+#thought {
+  margin-top: 20px;
+  height: 140vh;
+  padding: 270px 0px;
+  z-index: -2222;
+  position: relative;
+}
+#thought .container-fluid .quote {
+  width: 500px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+
+  color: var(--purple);
+  font-family: "Raleway", sans-serif;
+}
+.small-text {
+  font-size: 20px;
+  margin: 20px 0;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple);
+  text-align: center;
+}
+
+.img-a {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.img-b {
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+.img-c {
+  position: absolute;
+  left: 0;
+  top: 44%;
+}
+.img-d {
+  position: absolute;
+  right: 0;
+  top: 43%;
+}
+.img-e {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  z-index: -1;
+}
+#promo {
+  background: url("./img/promo.png") no-repeat;
+  height: 60vh !important;
+}
+.promo-head h1 {
+  font-family: "Raleway", sans-serif;
+  padding: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+#about {
+  padding: 20px;
+}
+#about .container {
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+#about .about-head {
+  color: var(--purple);
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+.about-content .row {
+  padding-top: 20px;
+}
+#about .col-md-4 img {
+  width: 100%;
+  height: 100%;
+}
+#about .col-md-4 {
+  margin: 10px 0px;
+}
+#about .about-para {
+  padding: 10px;
+}
+
+#team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+.profile-pic {
+  margin-top: 25px;
+}
+.profile-pic .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img {
+  filter: grayscale(0);
+  transition: ease-in-out 0.3s;
+}
+.profile-pic .img-box img:hover {
+  filter: grayscale(1);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.profile-pic h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.profile-pic h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa {
+  height: 25px;
+  width: 25px;
+  color: var(--theme);
+  background: #fff;
+  border-radius: 50%;
+}
+
+.img-box img {
+  width: 100%;
+}
+.social-link a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+.social-link .fa {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+.social-link .fa:hover {
+  background-color: var(--theme) !important;
+  color: white !important;
+  transform: translateY(-7px);
+}
+#team {
+  background-image: url("./img/bg3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#about {
+  background-image: url("./img/bg4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.parallax {
+  /* The image used */
+  background-image: url("./img/banner_bg.jpg");
+
+  /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon img {
+  width: 60% !important;
+  margin-bottom: 5px;
+}
+#adv {
+  background-image: url(./img/Adv.png);
+  height: 50vh;
+}
+#adv h1,
+#contact h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+}
+.white {
+  color: white;
+}
+#adv .btn,
+#contact .btn {
+  background-color: #fff;
+  color: #ff0079;
+  font-size: 20px;
+  margin: auto;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  box-shadow: #f33f93 4px 4px 10px;
+}
+#adv span {
+  text-align: left;
+}
+footer {
+  background-color: var(--purple);
+}
+footer img {
+  width: 100%;
+}
+footer p {
+  color: #bdc0c2;
+  font-size:15px;
+}
+
+footer h5{
+  font-weight: 800;
+  font-size: 14px;
+  color:var(--theme);
+  text-align: center;
+}
+
+footer .social li a{
+color:var(--theme);
+font-size:25px;}
+
+footer li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+footer li a{
+  color: #a1a2a3;
+  text-decoration: none;
+}
+.footer-copyright{
+  background-color: #230f57;
+  color:#fff;
+}
+#header{
+  background-image: url("./img/banner_bg.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+#header h1{
+  padding: 130px;
+  font-family: "Raleway", sans-serif;
+text-align: center;
+}
+#contact_us{
+  padding:50px;
+  background-image: url(./img/bg2.png);
+
+  background-size: cover;
+}
+.card{
+background-image: url("./img/banner_bg.jpg");  padding:0 20px;
+  height:200px;margin:5px;
+  color:white;
+  text-align: center;
+}
+.card-icon{
+  font-size:28px;
+  background-color: #ff0079;
+  width:60px;
+  height:60px;  margin-top: 40px;
+
+  line-height: 60px!important;
+  border-radius:50%;
+  transition: 0.3s linear;
+}
+.card h4{
+  font-size: 15px;
+  padding-top: 15px;
+}
