@@ -6,13 +6,13 @@ import Contact from "./components/Contact_us/ContactUs";
 import Home from "./components/Home";
 import ScrollToUp from "./components/ScrollToTop";
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 
 const App = () => {
   return (
     <>
-  <BrowserRouter>
+  <HashRouter>
   <ScrollToUp/>
       <Menu />
       <Switch>
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/Team" exact component={Team} />
         <Route path="/Contact" exact component={Contact} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
         
       </>
   );
